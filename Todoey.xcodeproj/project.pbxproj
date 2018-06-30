@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		631B083220E6CEEB00BC4849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B083120E6CEEB00BC4849 /* AppDelegate.swift */; };
-		631B083420E6CEEB00BC4849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B083320E6CEEB00BC4849 /* ViewController.swift */; };
+		631B083420E6CEEB00BC4849 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B083320E6CEEB00BC4849 /* TodoListViewController.swift */; };
 		631B083720E6CEEB00BC4849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631B083520E6CEEB00BC4849 /* Main.storyboard */; };
 		631B083920E6CEEC00BC4849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631B083820E6CEEC00BC4849 /* Assets.xcassets */; };
 		631B083C20E6CEEC00BC4849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631B083A20E6CEEC00BC4849 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		631B082E20E6CEEB00BC4849 /* TodoeySop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoeySop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631B082E20E6CEEB00BC4849 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		631B083120E6CEEB00BC4849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		631B083320E6CEEB00BC4849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		631B083320E6CEEB00BC4849 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		631B083620E6CEEB00BC4849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		631B083820E6CEEC00BC4849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		631B083B20E6CEEC00BC4849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		631B082520E6CEEB00BC4849 = {
 			isa = PBXGroup;
 			children = (
-				631B083020E6CEEB00BC4849 /* TodoeySop */,
+				631B083020E6CEEB00BC4849 /* Todoey */,
 				631B082F20E6CEEB00BC4849 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +46,30 @@
 		631B082F20E6CEEB00BC4849 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				631B082E20E6CEEB00BC4849 /* TodoeySop.app */,
+				631B082E20E6CEEB00BC4849 /* Todoey.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		631B083020E6CEEB00BC4849 /* TodoeySop */ = {
+		631B083020E6CEEB00BC4849 /* Todoey */ = {
 			isa = PBXGroup;
 			children = (
 				631B083120E6CEEB00BC4849 /* AppDelegate.swift */,
-				631B083320E6CEEB00BC4849 /* ViewController.swift */,
+				631B083320E6CEEB00BC4849 /* TodoListViewController.swift */,
 				631B083520E6CEEB00BC4849 /* Main.storyboard */,
 				631B083820E6CEEC00BC4849 /* Assets.xcassets */,
 				631B083A20E6CEEC00BC4849 /* LaunchScreen.storyboard */,
 				631B083D20E6CEEC00BC4849 /* Info.plist */,
 			);
-			path = TodoeySop;
+			path = Todoey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		631B082D20E6CEEB00BC4849 /* TodoeySop */ = {
+		631B082D20E6CEEB00BC4849 /* Todoey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 631B084020E6CEEC00BC4849 /* Build configuration list for PBXNativeTarget "TodoeySop" */;
+			buildConfigurationList = 631B084020E6CEEC00BC4849 /* Build configuration list for PBXNativeTarget "Todoey" */;
 			buildPhases = (
 				631B082A20E6CEEB00BC4849 /* Sources */,
 				631B082B20E6CEEB00BC4849 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = TodoeySop;
+			name = Todoey;
 			productName = TodoeySop;
-			productReference = 631B082E20E6CEEB00BC4849 /* TodoeySop.app */;
+			productReference = 631B082E20E6CEEB00BC4849 /* Todoey.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 631B082920E6CEEB00BC4849 /* Build configuration list for PBXProject "TodoeySop" */;
+			buildConfigurationList = 631B082920E6CEEB00BC4849 /* Build configuration list for PBXProject "Todoey" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				631B082D20E6CEEB00BC4849 /* TodoeySop */,
+				631B082D20E6CEEB00BC4849 /* Todoey */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				631B083420E6CEEB00BC4849 /* ViewController.swift in Sources */,
+				631B083420E6CEEB00BC4849 /* TodoListViewController.swift in Sources */,
 				631B083220E6CEEB00BC4849 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		631B082920E6CEEB00BC4849 /* Build configuration list for PBXProject "TodoeySop" */ = {
+		631B082920E6CEEB00BC4849 /* Build configuration list for PBXProject "Todoey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				631B083E20E6CEEC00BC4849 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		631B084020E6CEEC00BC4849 /* Build configuration list for PBXNativeTarget "TodoeySop" */ = {
+		631B084020E6CEEC00BC4849 /* Build configuration list for PBXNativeTarget "Todoey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				631B084120E6CEEC00BC4849 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TodoeySop.xcodeproj">
+      location = "self:/Users/pertti/AppDev/Udemy2018/TodoeySop/Todoey.xcodeproj">
    </FileRef>
 </Workspace>
